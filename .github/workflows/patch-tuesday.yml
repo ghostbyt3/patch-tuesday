@@ -1,4 +1,4 @@
-name: Run Python Script and Save Output
+name: Check Patch Tuesday for Vulnerabilities
 
 on:
   schedule:
