@@ -2,7 +2,7 @@ name: Check Patch Tuesday for Vulnerabilities
 
 on:
   schedule:
-    - cron: '0 12 ? * 2#2 *'  # Runs every second Tuesday at 12 PM UTC
+    - cron: '0 12 * * 2'  # Runs every second Tuesday at 12 PM UTC
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
