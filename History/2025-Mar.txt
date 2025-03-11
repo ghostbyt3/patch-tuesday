@@ -1,7 +1,7 @@
 [+] Microsoft Patch Tuesday Stats
 [+] https://github.com/Immersive-Labs-Sec/msrc-api
 [+] March 2025 Early Security Updates
-[+] Found a total of 187 vulnerabilities
+[+] Found a total of 199 vulnerabilities
   [-] 0 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
   [-] 0 Remote Code Execution Vulnerabilities
