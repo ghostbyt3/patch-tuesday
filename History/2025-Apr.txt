@@ -1,17 +1,29 @@
 [+] Microsoft Patch Tuesday Stats
 [+] https://github.com/Immersive-Labs-Sec/msrc-api
 [+] April 2025 Security Updates
-[+] Found a total of 291 vulnerabilities
+[+] Found a total of 324 vulnerabilities
   [-] 49 Elevation of Privilege Vulnerabilities
   [-] 9 Security Feature Bypass Vulnerabilities
   [-] 31 Remote Code Execution Vulnerabilities
   [-] 18 Information Disclosure Vulnerabilities
   [-] 14 Denial of Service Vulnerabilities
   [-] 3 Spoofing Vulnerabilities
-  [-] 12 Edge - Chromium Vulnerabilities
+  [-] 14 Edge - Chromium Vulnerabilities
 [+] Found 1 exploited in the wild
   [-] CVE-2025-29824 - 7.8 - Windows Common Log File System Driver Elevation of Privilege Vulnerability
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2017-17522 - 8.8 - None
+  [-] CVE-2024-3727 - 8.3 - None
+  [-] CVE-2024-21896 - 9.8 - None
+  [-] CVE-2024-6345 - 8.8 - None
+  [-] CVE-2023-43804 - 8.1 - None
+  [-] CVE-2007-4559 - 9.8 - None
+  [-] CVE-2024-52338 - 9.8 - None
+  [-] CVE-2024-45337 - 9.1 - None
+  [-] CVE-2024-7776 - 9.1 - None
+  [-] CVE-2022-48716 - 9.8 - None
+  [-] CVE-2025-22871 - 9.1 - None
+  [-] CVE-2024-56406 - 8.6 - None
   [-] CVE-2025-26663 - 8.1 - Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability
   [-] CVE-2025-26669 - 8.8 - Windows Routing and Remote Access Service (RRAS) Information Disclosure Vulnerability
   [-] CVE-2025-27477 - 8.8 - Windows Telephony Service Remote Code Execution Vulnerability
@@ -30,15 +42,6 @@
   [-] CVE-2025-27482 - 8.1 - Windows Remote Desktop Services Remote Code Execution Vulnerability
   [-] CVE-2025-27487 - 8.0 - Remote Desktop Client Remote Code Execution Vulnerability
   [-] CVE-2025-27737 - 8.6 - Windows Security Zone Mapping Security Feature Bypass Vulnerability
-  [-] CVE-2017-17522 - 8.8 - None
-  [-] CVE-2024-3727 - 8.3 - None
-  [-] CVE-2024-21896 - 9.8 - None
-  [-] CVE-2024-6345 - 8.8 - None
-  [-] CVE-2007-4559 - 9.8 - None
-  [-] CVE-2024-52338 - 9.8 - None
-  [-] CVE-2024-45337 - 9.1 - None
-  [-] CVE-2024-7776 - 9.1 - None
-  [-] CVE-2022-48716 - 9.8 - None
 [+] Found 11 vulnerabilites more likely to be exploited
   [-] CVE-2025-26663 -- Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-26663
   [-] CVE-2025-27472 -- Windows Mark of the Web Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-27472
