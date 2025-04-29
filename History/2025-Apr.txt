@@ -1,7 +1,7 @@
 [+] Microsoft Patch Tuesday Stats
 [+] https://github.com/Immersive-Labs-Sec/msrc-api
 [+] April 2025 Security Updates
-[+] Found a total of 324 vulnerabilities
+[+] Found a total of 350 vulnerabilities
   [-] 49 Elevation of Privilege Vulnerabilities
   [-] 9 Security Feature Bypass Vulnerabilities
   [-] 31 Remote Code Execution Vulnerabilities
@@ -17,6 +17,8 @@
   [-] CVE-2024-21896 - 9.8 - None
   [-] CVE-2024-6345 - 8.8 - None
   [-] CVE-2023-43804 - 8.1 - None
+  [-] CVE-2021-40633 - 8.8 - None
+  [-] CVE-2025-2291 - 8.1 - None
   [-] CVE-2007-4559 - 9.8 - None
   [-] CVE-2024-52338 - 9.8 - None
   [-] CVE-2024-45337 - 9.1 - None
@@ -24,6 +26,9 @@
   [-] CVE-2022-48716 - 9.8 - None
   [-] CVE-2025-22871 - 9.1 - None
   [-] CVE-2024-56406 - 8.6 - None
+  [-] CVE-2025-32433 - 10.0 - None
+  [-] CVE-2025-30215 - 9.6 - None
+  [-] CVE-2025-23016 - 9.3 - None
   [-] CVE-2025-26663 - 8.1 - Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability
   [-] CVE-2025-26669 - 8.8 - Windows Routing and Remote Access Service (RRAS) Information Disclosure Vulnerability
   [-] CVE-2025-27477 - 8.8 - Windows Telephony Service Remote Code Execution Vulnerability
