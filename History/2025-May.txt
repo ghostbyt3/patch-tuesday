@@ -1,0 +1,21 @@
+[+] Microsoft Patch Tuesday Stats
+[+] https://github.com/Immersive-Labs-Sec/msrc-api
+[+] May Early 2025 Security Updates
+[+] Found a total of 178 vulnerabilities
+  [-] 0 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 0 Remote Code Execution Vulnerabilities
+  [-] 0 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 0 Spoofing Vulnerabilities
+  [-] 5 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2024-3727 - 8.3 - None
+  [-] CVE-2017-17522 - 8.8 - None
+  [-] CVE-2024-52338 - 9.8 - None
+  [-] CVE-2025-2291 - 8.1 - None
+  [-] CVE-2007-4559 - 9.8 - None
+  [-] CVE-2016-1585 - 9.8 - None
+  [-] CVE-2025-23016 - 9.3 - None
+[+] Found 0 vulnerabilites more likely to be exploited
