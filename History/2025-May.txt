@@ -1,14 +1,14 @@
 [+] Microsoft Patch Tuesday Stats
 [+] https://github.com/Immersive-Labs-Sec/msrc-api
 [+] May 2025 Security Updates
-[+] Found a total of 268 vulnerabilities
-  [-] 20 Elevation of Privilege Vulnerabilities
+[+] Found a total of 292 vulnerabilities
+  [-] 21 Elevation of Privilege Vulnerabilities
   [-] 2 Security Feature Bypass Vulnerabilities
   [-] 29 Remote Code Execution Vulnerabilities
   [-] 16 Information Disclosure Vulnerabilities
   [-] 7 Denial of Service Vulnerabilities
   [-] 3 Spoofing Vulnerabilities
-  [-] 6 Edge - Chromium Vulnerabilities
+  [-] 8 Edge - Chromium Vulnerabilities
 [+] Found 5 exploited in the wild
   [-] CVE-2025-30400 - 7.8 - Microsoft DWM Core Library Elevation of Privilege Vulnerability
   [-] CVE-2025-32701 - 7.8 - Windows Common Log File System Driver Elevation of Privilege Vulnerability
@@ -16,6 +16,16 @@
   [-] CVE-2025-32709 - 7.8 - Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
   [-] CVE-2025-30397 - 7.5 - Scripting Engine Memory Corruption Vulnerability
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2024-3727 - 8.3 - None
+  [-] CVE-2017-17522 - 8.8 - None
+  [-] CVE-2024-52338 - 9.8 - None
+  [-] CVE-2025-2291 - 8.1 - None
+  [-] CVE-2021-26291 - 9.1 - None
+  [-] CVE-2019-13045 - 8.1 - None
+  [-] CVE-2007-4559 - 9.8 - None
+  [-] CVE-2016-1585 - 9.8 - None
+  [-] CVE-2025-23016 - 9.3 - None
+  [-] CVE-2023-25690 - 9.8 - None
   [-] CVE-2025-26646 - 8.0 - .NET, Visual Studio, and Build Tools for Visual Studio Spoofing Vulnerability
   [-] CVE-2025-29964 - 8.8 - Windows Media Remote Code Execution Vulnerability
   [-] CVE-2025-29966 - 8.8 - Remote Desktop Client Remote Code Execution Vulnerability
@@ -33,15 +43,7 @@
   [-] CVE-2025-29813 - 10.0 - Azure DevOps Server Elevation of Privilege Vulnerability
   [-] CVE-2025-47733 - 9.1 - Microsoft Power Apps Information Disclosure Vulnerability
   [-] CVE-2025-47732 - 8.7 - Microsoft Dataverse Remote Code Execution Vulnerability
-  [-] CVE-2024-3727 - 8.3 - None
-  [-] CVE-2017-17522 - 8.8 - None
-  [-] CVE-2024-52338 - 9.8 - None
-  [-] CVE-2025-2291 - 8.1 - None
-  [-] CVE-2007-4559 - 9.8 - None
-  [-] CVE-2016-1585 - 9.8 - None
-  [-] CVE-2025-23016 - 9.3 - None
 [+] Found 8 vulnerabilites more likely to be exploited
-  [-] CVE-2025-29971 -- Web Threat Defense (WTD.sys) Denial of Service Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-29971
   [-] CVE-2025-29976 -- Microsoft SharePoint Server Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-29976
   [-] CVE-2025-30382 -- Microsoft SharePoint Server Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-30382
   [-] CVE-2025-30386 -- Microsoft Office Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-30386
@@ -49,3 +51,4 @@
   [-] CVE-2025-30385 -- Windows Common Log File System Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-30385
   [-] CVE-2025-30388 -- Windows Graphics Component Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-30388
   [-] CVE-2025-24063 -- Kernel Streaming Service Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-24063
+  [-] CVE-2025-29971 -- Web Threat Defense (WTD.sys) Denial of Service Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-29971
