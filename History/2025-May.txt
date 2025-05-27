@@ -1,8 +1,8 @@
 [+] Microsoft Patch Tuesday Stats
 [+] https://github.com/Immersive-Labs-Sec/msrc-api
 [+] May 2025 Security Updates
-[+] Found a total of 292 vulnerabilities
-  [-] 21 Elevation of Privilege Vulnerabilities
+[+] Found a total of 297 vulnerabilities
+  [-] 22 Elevation of Privilege Vulnerabilities
   [-] 2 Security Feature Bypass Vulnerabilities
   [-] 29 Remote Code Execution Vulnerabilities
   [-] 16 Information Disclosure Vulnerabilities
@@ -26,7 +26,6 @@
   [-] CVE-2016-1585 - 9.8 - None
   [-] CVE-2025-23016 - 9.3 - None
   [-] CVE-2023-25690 - 9.8 - None
-  [-] CVE-2025-26646 - 8.0 - .NET, Visual Studio, and Build Tools for Visual Studio Spoofing Vulnerability
   [-] CVE-2025-29964 - 8.8 - Windows Media Remote Code Execution Vulnerability
   [-] CVE-2025-29966 - 8.8 - Remote Desktop Client Remote Code Execution Vulnerability
   [-] CVE-2025-29967 - 8.8 - Remote Desktop Client Remote Code Execution Vulnerability
@@ -43,6 +42,8 @@
   [-] CVE-2025-29813 - 10.0 - Azure DevOps Server Elevation of Privilege Vulnerability
   [-] CVE-2025-47733 - 9.1 - Microsoft Power Apps Information Disclosure Vulnerability
   [-] CVE-2025-47732 - 8.7 - Microsoft Dataverse Remote Code Execution Vulnerability
+  [-] CVE-2025-26646 - 8.0 - .NET, Visual Studio, and Build Tools for Visual Studio Spoofing Vulnerability
+  [-] CVE-2025-47181 - 8.8 - Microsoft Edge (Chromium-based) Update Elevation of Privilege Vulnerability
 [+] Found 8 vulnerabilites more likely to be exploited
   [-] CVE-2025-29976 -- Microsoft SharePoint Server Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-29976
   [-] CVE-2025-30382 -- Microsoft SharePoint Server Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-30382
