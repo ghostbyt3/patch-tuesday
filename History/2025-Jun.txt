@@ -1,16 +1,16 @@
 [+] Microsoft Patch Tuesday Stats
 [+] https://github.com/Immersive-Labs-Sec/msrc-api
 [+] June 2025 Security Updates
-[+] Found a total of 86 vulnerabilities
+[+] Found a total of 131 vulnerabilities
   [-] 14 Elevation of Privilege Vulnerabilities
   [-] 3 Security Feature Bypass Vulnerabilities
   [-] 26 Remote Code Execution Vulnerabilities
-  [-] 18 Information Disclosure Vulnerabilities
+  [-] 19 Information Disclosure Vulnerabilities
   [-] 6 Denial of Service Vulnerabilities
   [-] 2 Spoofing Vulnerabilities
-  [-] 4 Edge - Chromium Vulnerabilities
+  [-] 6 Edge - Chromium Vulnerabilities
 [+] Found 1 exploited in the wild
-  [-] CVE-2025-33053 - 8.8 - Web Distributed Authoring and Versioning (WEBDAV) Remote Code Execution Vulnerability
+  [-] CVE-2025-33053 - 8.8 - Internet Shortcut Files Remote Code Execution Vulnerability
 [+] Highest Rated Vulnerabilities
   [-] CVE-2025-47273 - 8.8 - None
   [-] CVE-2011-3045 - 8.8 - None
@@ -26,7 +26,7 @@
   [-] CVE-2025-47966 - 9.8 - Power Automate Elevation of Privilege Vulnerability
   [-] CVE-2025-32717 - 8.4 - Microsoft Word Remote Code Execution Vulnerability
   [-] CVE-2025-32711 - 9.3 - M365 Copilot Information Disclosure Vulnerability
-  [-] CVE-2025-33053 - 8.8 - Web Distributed Authoring and Versioning (WEBDAV) Remote Code Execution Vulnerability
+  [-] CVE-2025-33053 - 8.8 - Internet Shortcut Files Remote Code Execution Vulnerability
   [-] CVE-2025-33070 - 8.1 - Windows Netlogon Elevation of Privilege Vulnerability
   [-] CVE-2025-33073 - 8.8 - Windows SMB Client Elevation of Privilege Vulnerability
   [-] CVE-2025-47163 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
