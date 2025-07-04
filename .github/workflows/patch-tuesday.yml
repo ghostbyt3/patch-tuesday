@@ -1,0 +1,43 @@
+name: Check Patch Tuesday for Vulnerabilities
+
+on:
+  schedule:
+    - cron: '0 19 * * 2'  # Runs every second Tuesday at 12 PM UTC
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install argparse requests bs4 || true  # Install dependencies if needed
+
+      - name: Get Date Variables
+        run: |
+          echo "YEAR_MONTH=$(date +'%Y-%b')" >> $GITHUB_ENV
+
+      - name: Run Python script with arguments
+        run: |
+          python patch_review.py ${{ env.YEAR_MONTH }} --save-json History/${{ env.YEAR_MONTH }}.json
+
+      - name: Generate index.json
+        run: |
+          files=$(ls History/*.json | xargs -n 1 basename | jq -R -s -c 'split("\n")[:-1]')
+          echo $files > History/index.json
+
+      - name: Commit and push results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add History/${{ env.YEAR_MONTH }}.json History/index.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update for ${{ env.YEAR_MONTH }}"
+          git push
