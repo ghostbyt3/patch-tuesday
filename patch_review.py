@@ -1,3 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+# Tool Name: Patch Tuesday Review
+# Description: A Python script to fetch, analyze, and report on Microsoft Security Updates (Patch Tuesday releases) from the MSRC API.
+# Usage: python3 patch_review.py 2025-Mar
+#
+# Author: Nikhil John Thomas (@ghostbyt3)
+# License: Apache License 2.0
+# URL: https://github.com/ghostbyt3/patch-tuesday
+
 import argparse
 import requests
 import re
@@ -655,6 +666,15 @@ if __name__ == "__main__":
         print(f"\n[+] Processing {title}")
         print(f"[+] Total vulnerabilities: {len(all_vulns)}")
         print(f"[+] Total products: {len(product_map)}")
+        
+        # Show detailed or full output if requested (when no filters applied)
+        if not args.filter_category and not args.filter_product:
+            if args.detailed:
+                print(f"\n[+] Detailed Vulnerabilities:")
+                for vuln in all_vulns:
+                    print_detailed_vulnerability(vuln)
+            elif args.full:
+                print_cve_list("All", all_vulns)
         
         # Apply filters if specified
         if args.filter_category or args.filter_product:
