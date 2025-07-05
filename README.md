@@ -75,6 +75,7 @@ python3 patch_review.py 2023-Nov --filter-category Windows
 
 Summary View
 ```text
+$ python3 patch_review.py 2025-Mar --summary
 
 [+] Processing March 2025 Security Updates
 [+] Total vulnerabilities: 538
@@ -148,3 +149,5 @@ Summary View
 
 ```
 
+## Acknowledgements
+- Shoutout to [msrc-api](https://github.com/Immersive-Labs-Sec/msrc-api) by [Immersive-Labs-Sec](https://github.com/Immersive-Labs-Sec) for their work.
