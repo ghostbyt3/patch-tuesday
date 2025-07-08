@@ -29,9 +29,9 @@ jobs:
         run: |
           python patch_review.py ${{ env.YEAR_MONTH }} --save-json History/${{ env.YEAR_MONTH }}.json
 
-      - name: Generate index.json
+      name: Generate index.json
         run: |
-          files=$(ls History/*.json | xargs -n 1 basename | jq -R -s -c 'split("\n")[:-1]')
+          files=$(find History -maxdepth 1 -type f -name '*.json' ! -name 'index.json' | xargs -n 1 basename | jq -R -s -c 'split("\n")[:-1]')
           echo $files > History/index.json
 
       - name: Commit and push results
